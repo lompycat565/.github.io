@@ -1,13 +1,16 @@
-<form class="fr" action="">
-	<label class="fr__label" for="face-rating">How was your experience?</label>
-	<div class="fr__face" role="img" aria-label="Straight face">
-		<div class="fr__face-right-eye" data-right></div>
-		<div class="fr__face-left-eye" data-left></div>
-		<div class="fr__face-mouth-lower" data-mouth-lower></div>
-		<div class="fr__face-mouth-upper" data-mouth-upper></div>
-	</div>
-	<input class="fr__input" id="face-rating" type="range" value="2.5" min="0" max="5" step="0.1">
-</form>
+<html>
+  <head>
+    <title>reCAPTCHA demo: Simple page</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+  <body>
+    <form action="?" method="POST">
+      <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+      <br/>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3629202609708554"
      crossorigin="anonymous"></script>
